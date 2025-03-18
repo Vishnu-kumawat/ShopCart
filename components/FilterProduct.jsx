@@ -49,7 +49,6 @@
 // export default FilteredProduct;
 
 
-import React from 'react';
 import { useLocation } from 'react-router-dom';
 import useCartStore from '../store/AddToCart';
 

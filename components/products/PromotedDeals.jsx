@@ -59,7 +59,6 @@ const PromotedDeals = () => {
 
                         <div className='flex justify-evenly items-center mt-5 w-full px-2 sm:px-4'>
                             <p className='text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl whitespace-nowrap'>Price: ${Math.round(product.price)}</p>
-                            {/* <span className='bg-gray-200 rounded-3xl px-2 py-1 text-orange-600 font-semibold text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg whitespace-nowrap'>50% OFF</span> */}
                             <span className='text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg text-gray-500 font-semibold whitespace-nowrap'>Orig Price: ${Math.round(product.price * 2)}</span>
                         </div>
 
